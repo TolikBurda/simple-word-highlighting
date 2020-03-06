@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle simple-word-highlighting",
+        "command": "simple-word-highlighting:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "simple-word-highlighting",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "simple-word-highlighting:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
