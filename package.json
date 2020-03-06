@@ -1,10 +1,9 @@
 {
   "name": "simple-word-highlighting",
   "main": "./lib/simple-word-highlighting",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "simple plug-in for highlighting parts of text in an ATOM environment",
-  "keywords": [
-  ],
+  "keywords": [],
   "activationCommands": {
     "atom-workspace": "simple-word-highlighting:toggle"
   },
@@ -13,6 +12,5 @@
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }
